@@ -1,0 +1,9 @@
+{
+    "age": 18,
+    "isonly": true,
+    "name": "zhangsan",
+    "telephone": [
+        "123456789",
+        "987654321"
+    ]
+}

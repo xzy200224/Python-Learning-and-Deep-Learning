@@ -1,0 +1,6 @@
+2024-01-31 12:12:16|   DEBUG|高级2.py[:14]|This is applog, debug
+2024-01-31 12:12:16|   ERROR|高级2.py[:20]|invalid literal for int() with base 10: 'abc'
+Traceback (most recent call last):
+  File "D:\code\Project\Python_Project\learning\logging\高级2.py", line 18, in <module>
+    int(a)
+ValueError: invalid literal for int() with base 10: 'abc'

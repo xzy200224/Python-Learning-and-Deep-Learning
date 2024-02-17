@@ -1,0 +1,4 @@
+2024-01-31 11:11:10|    INFO|高级1.py:33|this is info log
+2024-01-31 11:11:10| WARNING|高级1.py:34|this is warning log
+2024-01-31 11:11:10|   ERROR|高级1.py:35|this is error log
+2024-01-31 11:11:10|CRITICAL|高级1.py:36|this is critical log

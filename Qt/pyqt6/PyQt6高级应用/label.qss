@@ -1,0 +1,8 @@
+QLabel[level="error"]{
+    color:red;
+    font-size:18px;
+}
+QLabel[level="warning"]{
+    color:blue;
+    font-size:18px;
+}
