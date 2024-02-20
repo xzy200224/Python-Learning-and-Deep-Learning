@@ -40,8 +40,14 @@ mytripler = myfunc(3)
 print(mydoubler(11))
 print(mytripler(11))
 
-# lambda 函数通常与内置函数如 map()、filter() 和 reduce() 一起使用，以便在集合上执行操作。
 """
+用法：
+回调函数：当你需要传递一个函数作为另一个函数的参数时，匿名函数很有用。这在异步编程、事件处理、定时器设置等场景中很常见。
+简短的函数体：如果函数的实现非常简单，只有一行或几行代码，那么使用匿名函数可以使代码更简洁。
+即时执行：如果一个函数只需要执行一次，那么你可以创建一个匿名函数并立即执行它，这样可以避免不必要的函数命名。
+闭包和作用域：在某些编程语言中，匿名函数可以访问其外部作用域的变量，这使得它们在处理作用域和闭包问题时非常有用。
+函数式编程：在函数式编程中，函数是一等公民，可以像其他值一样被传递和操作。在这种情况下，匿名函数非常常见，特别是在高阶函数（如map、reduce、filter等）的使用中。
+
 map(function, iterable, ...): 这个函数接受一个函数和一个或多个可迭代对象作为参数。它将函数应用于可迭代对象的每个元素，并返回一个与原可迭代对象同样长度的新迭代器。
 filter(function, iterable): 这个函数接受一个函数和一个可迭代对象作为参数。它将函数应用于可迭代对象的每个元素，并返回一个只包含使函数返回值为True的元素的新迭代器。
 reduce(function, iterable[, initializer]): 这个函数在Python 3中被移动到了functools模块中。
@@ -54,4 +60,15 @@ print(squared)  # 输出: [1, 4, 9, 16, 25]
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)  # 输出：[2, 4, 6, 8]
+print(list(filter(lambda x: True if x % 2 == 0 else False, numbers))) # 输出：[2, 4, 6, 8]
 
+tele = [("Sam", 32), ("Alice", 23), ("Bob", 27)]
+tele.sort(key=lambda x: x[1], reverse=True) # 按年龄降序排序
+print(tele)  # 输出：[('Sam', 32), ('Bob', 27), ('Alice', 23)]
+
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+product = reduce(lambda x, y: x * y, numbers)
+print(product)  # 输出：120
+
+print(reduce(lambda x, y: x + y, range(1, 101)))  # 输出：5050
