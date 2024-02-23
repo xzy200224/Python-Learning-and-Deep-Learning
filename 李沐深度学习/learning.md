@@ -138,3 +138,41 @@
 ###  链式法则
 
 ![image-20240210115526850](learning.assets/image-20240210115526850.png)
+
+## 概率
+
+![image-20240221180105205](learning.assets/image-20240221180105205.png)
+
+![image-20240221180348925](learning.assets/image-20240221180348925.png)
+
+![image-20240221180815911](learning.assets/image-20240221180815911.png)
+
+![image-20240221183351115](learning.assets/image-20240221183351115.png)
+
+# 线性神经网络
+
+## 线性回归
+
+![image-20240221214350612](learning.assets/image-20240221214350612.png)
+
+![image-20240221214808749](learning.assets/image-20240221214808749.png)
+
+![image-20240221214913668](learning.assets/image-20240221214913668.png)
+
+![image-20240221220021166](learning.assets/image-20240221220021166.png)
+
+![image-20240221223355962](learning.assets/image-20240221223355962.png)
+
+##  softmax回归
+
+![image-20240222215348605](learning.assets/image-20240222215348605.png)
+
+![image-20240222215606706](learning.assets/image-20240222215606706.png)
+
+![image-20240222225800781](learning.assets/image-20240222225800781.png)
+
+![image-20240222225930911](learning.assets/image-20240222225930911.png)
+
+![image-20240222233448407](learning.assets/image-20240222233448407.png)
+
+![image-20240222233507666](learning.assets/image-20240222233507666.png)
